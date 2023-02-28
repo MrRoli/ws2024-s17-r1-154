@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    text-shadow: 5px;
+    background-image: url(./images/ub2023_1.jpg);
+    background-size: cover;
+    /*backdrop-filter: blur(5px);*/
+}
+
+button{
+    box-shadow: 0px 0px 0px 0px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	border:2px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:28px;
+	padding:25px 50px;
+	text-decoration:none;
+	text-shadow:0px 0px 50px #3d768a;
+}
+
+button:hover{
+    text-shadow:0px 0px 50px #000000;
+}
+
+p{
+    display: block;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: white;
+    font-size: 5ex;
+}
+
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+.date{
+    font-style: italic;
+    text-decoration: #000000 dashed;
+}
+
+.footer {
+    width: 50px;
+    position: fixed;
+    bottom: 0px;
+    background-color: grey;
+    padding: 5px;
+}
